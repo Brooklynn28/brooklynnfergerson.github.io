@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+
+*{
+    text-align: center;
+}
+
+h1 {
+    font-family: "Tangerine";
+    font-size: 50px;
+}
+
+
+img {
+    width: 300px;
+    border-radius: 40px;
+    border: 10px solid #ffffff;
+}
+
+li {
+    list-style: circle;
+   
+    
+}
+
+.list {
+    list-style: square;
+    
+}
+
+#msg {
+    font-family: monospace;
+    
+}
+
+
+:root {
+    --pink: #f5137c;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.light-theme {
+    --bg: var(--pink);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--pink);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+* {
+    color: var(--fontColor);
+    font-family: 'Gill Sans';
+}
+
+body {
+    background: var(--bg);
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+#msg{
+    font-family: "Rufina", 'Times New Roman';
+    font-weight: bold;
+}
+
+
+
+img:hover{
+    transform: scale(1.2);
+    border: 5px solid #a30655;
+    box-shadow: 0 0 30px #a30655, insert 0 0 30px #a30655;
+}
